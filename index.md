@@ -2,7 +2,7 @@
 ## TEST 1
 
 
-<video src="https://user-images.githubusercontent.com/15959667/209474030-9fae23da-a54d-4230-9c66-4ed5213c6ca4.mp4" controls"></video>
+<video src="https://user-images.githubusercontent.com/15959667/209474030-9fae23da-a54d-4230-9c66-4ed5213c6ca4.mp4" controls></video>
 
 
 ## TEST 2
