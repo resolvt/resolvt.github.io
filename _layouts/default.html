@@ -6,8 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
 {% seo %}
-    <link href="//vjs.zencdn.net/7.10.2/video-js.min.css" rel="stylesheet">
-    <script src="//vjs.zencdn.net/7.10.2/video.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/mediaelement@5.1.0/build/mediaelementplayer.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/mediaelement@5.1.0/build/mediaelement-and-player.js"></script>
     <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
     {% include head-custom.html %}
   </head>
@@ -25,6 +25,12 @@
       </div>
       {% endif %}
     </div>
+    <script>
+      const players = document.querySelectorAll("video");
+      players.forEach(player => {
+        new MediaElementPlayer(player);
+      });
+    </script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.1.0/anchor.min.js" integrity="sha256-lZaRhKri35AyJSypXXs4o6OPFTbTmUoltBbDCbdzegg=" crossorigin="anonymous"></script>
     <script>anchors.add();</script>
   </body>
