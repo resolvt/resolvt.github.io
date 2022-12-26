@@ -16,5 +16,5 @@ Supported source code repository providers:
 
 # Documents
 * [Getting Started](/getting-started.md)
-* [Self-hosted / On-premise usage](using-on-premise.md)
+* TBD: Self-hosted / On-premise installation
 
