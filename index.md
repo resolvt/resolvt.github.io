@@ -1,13 +1,20 @@
-# TEST
-## TEST 1
+**Resolvt** is an open source technical debt manager. It functions like an issue tracker, allowing developers to associate tickets with specific parts of the code, such as functions, methods, and classes. By binding tickets to these code entities and integrating with source code repositories, Resolvt can keep track of changes made to them and calculate the cost of any unresolved technical debt. With Resolvt, developers can easily report and navigate technical debt tickets right in their IDE, making it even easier to stay on top of this important aspect of code maintenance. 
 
+Supported programming languages:
 
-<video src="https://user-images.githubusercontent.com/15959667/209474030-9fae23da-a54d-4230-9c66-4ed5213c6ca4.mp4" controls></video>
+* Java
+* Kotlin
 
+Supported IDEs:
 
-## TEST 2
-![image](https://user-images.githubusercontent.com/15959667/209473772-545d9a08-b33a-42e6-bbb4-b7ce22270acb.png)
-## TEST 3
-![image](https://user-images.githubusercontent.com/15959667/209473772-545d9a08-b33a-42e6-bbb4-b7ce22270acb.png)
-## TEST 4
-![image](https://user-images.githubusercontent.com/15959667/209473772-545d9a08-b33a-42e6-bbb4-b7ce22270acb.png)
+* Intellij IDEA
+
+Supported source code repository providers:
+
+* GitHub
+* Bitbucket
+
+# Documents
+* [Getting Started](/getting-started.md)
+* [Self-hosted / On-premise usage](using-on-premise.md)
+
