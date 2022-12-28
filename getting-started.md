@@ -29,7 +29,7 @@ Resolvt supports the Java and Kotlin programming languages and is compatible wit
 ### Creating workspace
 Before starting using Resolvt you should set up a workspace for your team. To do that:
 
-1. Navigate to Resolvt and sign in using the source code repository provider of your choice. If you are using Resolvt on-premise Resolvt instance is most probably configured to use single reporisotry prefered by your organisationl. In this case you may be automatically redirected to GitHub/Bitbucket authorization confirmation page.
+1. Navigate to Resolvt and sign in using the source code repository provider of your choice. If you are using Resolvt on-premise Resolvt, instance is most probably configured to use single source code repository provider prefered by your organisation. In this case you may be automatically redirected to GitHub/Bitbucket authorization confirmation page.
 2. After sign up you will be redirected to main Resolvt dashboard. If you are not part of any workspace the dashboard will be empty and will suggest you to **Connect** Resolvt to your code repositories. You can either click **Connect** or **Create workspace** at the top right corner of the page.
 3. You will be redirected to your source repository provider (GitHub or Bitbucket). You will be asked to choose the account/organisation/repositories you want Resolvt to have access to.
 > **Note:** Unfortunately Resolvt for Bitbucket is not listed in Atlassian Marketplace yet, that's why you will need to enable development mode for your Bitbucket Cloud workspace to connect Resolvt to it. If it is the case for you Bitbucket will show you a corresponding warning:
