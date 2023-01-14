@@ -44,8 +44,6 @@ Before starting using Resolvt you should set up a workspace for your team. To do
 The IDE plugin is required to create technical debt tickets. It also provides the possibility to browse and edit tickets within a project.
 
 #### Intellij IDEA
-Install plugin from.
-
 Install the Resolvt Integration plugin from the  <a href="https://plugins.jetbrains.com/plugin/20735-resolvt-integration" target="_blank">JetBrains Marketplace</a>.
 
 > Alternatively, in your IDE go to **File > Settings > Plugins > Marketplace** tab. Search for "Resolvt" and install the "Resolvt Integration" plugin.
