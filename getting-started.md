@@ -102,4 +102,4 @@ In some cases the tracking of a technical debt binding can be lost. That, for ex
 Bindings which tracking was lost are displayed in the technical debt ticket in a special way:
 <img src="media/getting-started/trackinglost.png" width="100%">
 
-In some cases, that means the technical debt is no longer applicable (as the code was removed or refactored) and the technical debt ticket can be resolved. You can do it manually using the **Edit** button in the web UI. Alternatively, you can edit the ticket by removing the binding or creating a new one within the IDE.
+In some cases, that means the technical debt is no longer applicable (as the code was removed or refactored) and the technical debt ticket can be resolved. You can do it manually using the **Edit** button in the web UI. Alternatively, you can edit the ticket, removing the binding or creating a new one within the IDE.
