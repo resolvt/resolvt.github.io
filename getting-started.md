@@ -1,21 +1,22 @@
 # Getting Started with Resolvt
 
-> **NOTE:** This guide assumes that you either have Resolvt self-hosted on your server or using the cloud version (TBD).
+> **NOTE:** This guide assumes that you either have Resolvt self-hosted on your server or using [resolvt.dev](resolvt.dev).
 >
 
-- [Getting Started with Resolvt](#getting-started-with-resolvt)
-  - [Intruduction to Resolvt and its features](#intruduction-to-resolvt-and-its-features)
-  - [Setting up](#setting-up)
-    - [Creating workspace](#creating-workspace)
-    - [Inviting the teammates](#inviting-the-teammates)
-    - [Installing the plugin](#installing-the-plugin)
-      - [Intellij IDEA](#intellij-idea)
-  - [Using Resolvt](#using-resolvt)
-    - [Reporting tecnical debt](#reporting-tecnical-debt)
+<!-- no toc -->
+- [Intruduction to Resolvt and its features](#intruduction-to-resolvt-and-its-features)
+- [Setting up](#setting-up)
+  - [Creating workspace](#creating-workspace)
+  - [Installing the plugin](#installing-the-plugin)
+    - [Intellij IDEA](#intellij-idea)
+  - [Inviting the teammates](#inviting-the-teammates)
+- [Using Resolvt](#using-resolvt)
+  - [Reporting tecnical debt](#reporting-tecnical-debt)
+  - [Tracking changes and technical debt costs](#tracking-changes-and-technical-debt-costs)
 
 
 ## Intruduction to Resolvt and its features
-**Resolvt** is an open source tool for managing technical debt. It acts as an issue tracker, allowing developers to create tickets for specific code entities, such as functions, methods, and classes. By integrating with source code repositories, Resolvt can track changes to these code entities and calculate the cost of unresolved technical debt. With Resolvt, developers can easily report and track technical debt tickets within their IDE, making it easier to maintain and improve their code.
+**Resolvt** is an open source tool for managing technical debt. It acts as an issue tracker, allowing developers to create tickets associated with specific code entities, such as functions, methods, and classes. By integrating with source code repositories, Resolvt can track changes to these code entities and calculate the cost of unresolved technical debt. With Resolvt, developers can easily report and track technical debt tickets within their IDE, making it easier to maintain and improve their code.
 
 Some of the benefits of using Resolvt include:
 
@@ -39,17 +40,6 @@ Before starting using Resolvt you should set up a workspace for your team. To do
 > </p>
 > 
 
-### Inviting the teammates
-To invite team members to the workspace:
-
-1. Go to the web dashboard and click **Invite** in the top-right corner
-2. Enter the email address of your new team member
-3. Click **Send invitation**
-
-> **NOTE:** The user you are trying to invite to the workspace must be signed up to Resolvt instance.
-
-<video src="media/getting-started/invite.mp4" controls></video>
-
 ### Installing the plugin
 The IDE plugin is required to create technical debt tickets. It also provides the possibility to browse and edit tickets within a project.
 
@@ -70,6 +60,16 @@ After the plugin is installed, in the IDE:
 
 <video src="media/getting-started/plugin-setup.mp4" controls></video>
 
+### Inviting the teammates
+To invite team members to the workspace:
+
+1. Go to the web dashboard and click **Invite** in the top-right corner
+2. Enter the email address of your new team member
+3. Click **Send invitation**
+
+> **NOTE:** The user you are trying to invite to the workspace must be signed up to Resolvt instance.
+
+<video src="media/getting-started/invite.mp4" controls></video>
 
 ## Using Resolvt
 ### Reporting tecnical debt
@@ -85,3 +85,23 @@ To do that:
 7. Click **Submit**
 
 <video src="media/getting-started/report.mp4" controls></video>
+
+Example above shows that technical debt tickets can be associated with (bound to) specific code entites. You can bind technical debt ticket to an unlimited amount of:
+- Classes and methods in Java
+- Classes and functions in Kotlin 
+
+While creating or editing a technical debt ticket in your IDE you can add more then one bindings the same way as it is described above. 
+
+### Tracking changes and technical debt costs
+Technical debt cost refers to the impact of technical debt on the team performance and code wellbeing. 
+
+Resolvt tracks changes to your code and identifies those that occur in code that is bound to technical debt tickets. As a result, the cost is increased when code bound to a technical debt ticket is modified, or when a user upvotes a technical debt ticket. This cost is meant to reflect the additional time, resources, and potential revenue loss associated with maintaining and fixing the problem caused by the technical debt. By tracking the cost, Resolvt can help prioritize technical debt tickets and make decisions on when to address the technical debt.
+
+<img src="media/getting-started/cost.png" width="100%">
+
+In some cases the tracking of a technical debt binding can be lost. That, for example, can happen if the method/function or class that was bound to the technical debt ticket was removed.
+
+Bindings which tracking was lost are displayed in the technical debt ticket in a special way:
+<img src="media/getting-started/trackinglost.png" width="100%">
+
+In some cases, that means the technical debt is no longer applicable (as the code was removed or refactored) and the technical debt ticket can be resolved. You can do it manually using the **Edit** button in the web UI. Alternatively, you can edit the ticket by removing the binding or creating a new one within the IDE.
