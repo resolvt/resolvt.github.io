@@ -1,6 +1,6 @@
 # Getting Started with Resolvt
 
-> **NOTE:** This guide assumes that you either have Resolvt self-hosted on your server or using [resolvt.dev](resolvt.dev).
+> **NOTE:** This guide assumes that you either have Resolvt self-hosted on your server or using [resolvt.dev](https://resolvt.dev).
 >
 
 <!-- no toc -->
