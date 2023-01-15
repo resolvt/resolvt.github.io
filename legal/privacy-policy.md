@@ -1,3 +1,7 @@
+---
+title: Privacy Policy
+---
+
 PRIVACY POLICY
 
 Effective date: 2023-01-15
@@ -90,10 +94,6 @@ For any questions, please contact us through the following methods:
 
 Name: Nikita Verkhovin
 
-Address: Ratsukatu 4 A 24, Espoo, Finland
-
 Email: n.verkhovin@gmail.com
 
 Website: https://resolvt.dev
-
-Phone: +358503543292
