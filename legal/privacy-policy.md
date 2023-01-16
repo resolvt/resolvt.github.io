@@ -132,6 +132,7 @@ According to CalOPPA we agree to the following:
 - our Privacy Policy link includes the word “Privacy”, and can easily be found on the page specified above on the home page of our website;
 - users will be notified of any privacy policy changes on our Privacy Policy Page;
 - users are able to change their personal information by emailing us at resolvt@gmail.com.
+
 Our Policy on “Do Not Track” Signals:
 
 We honor Do Not Track signals and do not track, plant cookies, or use advertising when a Do Not Track browser mechanism is in place. Do Not Track is a preference you can set in your web browser to inform websites that you do not want to be tracked.
